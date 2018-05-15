@@ -23,5 +23,8 @@
 3. Navigate to this folder and run `npm test`.
 
 #### Deployed Link
-
+https://galvanize-drill-1-9f027.firebaseapp.com
 #### Framework of choice
+  react
+
+# dinos

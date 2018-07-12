@@ -6,7 +6,7 @@ const Form = (props) => {
   return (
     <aside id="side-bar">
       <h3>Add a Job</h3>
-    <form onSubmit={props.formSubmitted} className="job-form">
+      <form onSubmit={props.formSubmitted} className="job-form">
           <label htmlFor="title">Title</label>
             <input type="text" name="title" />
           <label htmlFor="pay">Compensation</label>

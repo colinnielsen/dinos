@@ -37,10 +37,10 @@ render(){
         <SkillList
           showSkills={this.showSkills}
           skills={this.props.dinosaur.skills} />
-        </div>
-      </li>
-    )
-  }
+      </div>
+    </li>
+  )
+ }
 }
 
 export default Dinosaur

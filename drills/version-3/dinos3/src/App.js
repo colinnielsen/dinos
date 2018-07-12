@@ -3,14 +3,14 @@ import './App.css';
 import Footer from './components/Footer.js'
 import Header from './components/Header.js'
 import JobDetails from './components/JobDetails.js'
-import ImputForm from './components/ImputForm.js'
+import InputForm from './components/InputForm.js'
 import Preview from './components/Preview.js'
 
 class App extends Component {
 
   constructor(){
     super()
-  this.state = {
+    this.state = {
       jobs: [],
       class: "hidden",
       messageContent: "",
@@ -58,7 +58,7 @@ updatePreview(event){
         <Header />
         <main>
           <JobDetails jobs={this.state}/>
-          <ImputForm
+          <InputForm
             submitMessage={this.state.submitMessage}
             messageContent={this.state.messageContent}
             updatePreview={this.updatePreview}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ImputForm = (props) => {
+const InputForm = (props) => {
 
   return(
   <form onSubmit={props.submitApplication} id="application-input">
@@ -12,4 +12,4 @@ const ImputForm = (props) => {
 
 )}
 
-export default ImputForm
+export default InputForm
